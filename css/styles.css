@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.header-logo {
+  width: 129px;
+}
+
+.header-top {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.menu {
+  width: 900px;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  justify-content: space-evenly;
+}
+
+.banner {
+  position: relative;
+  height: 550px;
+  background-image: url(../assets/images/Light_header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo-light {
+  position: absolute;
+  top: 220px;
+  left: 250px;
+}
+
+.article {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 150px 130px;
+}
+
+.article-img {
+  width: 500px;
+}
+
+.article-title {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 18px;
+}
+
+.footer-rrss {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-brands {
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.terms {
+  padding-top: 35px;
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.terms-link:visited {
+  color: red;
+}
+
+.terms-link:hover {
+  opacity: 80%;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+}
